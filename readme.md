@@ -1,4 +1,4 @@
-# Fascinating & Frightening Shodan Search Queries (AKA: The Internet of Sh*t)
+# Awesome Shodan Search Queries [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
 **Based on a blog post at https://jarv.is/notes/shodan-search-queries/.**
@@ -26,7 +26,7 @@ The world and its devices are quickly becoming more connected through the shiny 
 - [Network Infrastructure](#network-infrastructure)
 - [Network Attached Storage (NAS)](#network-attached-storage-nas)
 - [Webcams](#webcams)
-- [Printers & Copiers](#printers-copiers)
+- [Printers & Copiers](#printers--copiers)
 - [Home Devices](#home-devices)
 - [Random Stuff](#random-stuff)
 
@@ -579,3 +579,11 @@ port:17 product:"Windows qotd"
 If you've found any other juicy Shodan gems, whether it's a search query or a specific example, definitely [drop a comment](https://jarv.is/notes/shodan-search-queries/#commento) on the blog or [open an issue/PR here on GitHub](https://github.com/jakejarvis/awesome-shodan-queries).
 
 Bon voyage, fellow penetrators! 😉
+
+
+
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Jake Jarvis](https://jarv.is/) has waived all copyright and related or neighboring rights to this work.
