@@ -524,6 +524,15 @@ ssl:"Xerox Generic Root"
 ## Random Stuff
 
 
+### OctoPrint 3D Printer Controllers [&#x2192;](https://www.shodan.io/search?query=title%3A%22OctoPrint%22+-title%3A%22Login%22+http.favicon.hash%3A1307375944)
+
+```
+title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
+```
+
+![Example: OctoPrint 3D Printers](screenshots/octoprint.png)
+
+
 ### Etherium Miners [&#x2192;](https://www.shodan.io/search?query=%22ETH+-+Total+speed%22)
 
 ```
