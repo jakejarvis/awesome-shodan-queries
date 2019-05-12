@@ -124,6 +124,15 @@ Secured by default, thankfully, but these 1,700+ machines still [have no busines
 ```
 
 
+### [GaugeTech](https://electroind.com/all-products/) Electricity Meters [&#x2192;](https://www.shodan.io/search?query=%22Server%3A+EIG+Embedded+Web+Server%22+%22200+Document+follows%22)
+
+```
+"Server: EIG Embedded Web Server" "200 Document follows"
+```
+
+![Example: GaugeTech Electricity Meters](screenshots/power-gaugetech.png)
+
+
 ### Siemens Industrial Automation [&#x2192;](https://www.shodan.io/search?query=%22Siemens%2C+SIMATIC%22+port%3A161)
 
 ```
