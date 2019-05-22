@@ -514,6 +514,15 @@ ssl:"Xerox Generic Root"
 ![Example: Yamaha Stereos](screenshots/yamaha.png)
 
 
+### Apple AirPlay Receivers [&#x2192;](https://www.shodan.io/search?query=%22%5Cx08_airplay%22+port%3A5353)
+
+Apple TVs, HomePods, etc.
+
+```
+"\x08_airplay" port:5353
+```
+
+
 ### Chromecasts / Smart TVs [&#x2192;](https://www.shodan.io/search?query=%22Chromecast%3A%22+port%3A8008)
 
 ```
