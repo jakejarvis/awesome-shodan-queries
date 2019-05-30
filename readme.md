@@ -61,6 +61,8 @@ The world and its devices are quickly becoming more connected through the shiny 
 P372 "ANPR enabled"
 ```
 
+![Example: Automatic License Plate Reader](screenshots/plate-reader.png)
+
 
 ### Traffic Light Controllers / Red Light Cameras [&#x2192;](https://www.shodan.io/search?query=mikrotik+streetlight)
 
