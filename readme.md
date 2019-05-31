@@ -6,14 +6,16 @@
 
 Over time, I've collected an assortment of interesting, funny, and depressing search queries to plug into [Shodan](https://www.shodan.io/), the ([literal](https://www.vice.com/en_uk/article/9bvxmd/shodan-exposes-the-dark-side-of-the-net)) internet search engine. Some return facepalm-inducing results, while others return serious and/or ancient vulnerabilities in the wild.
 
-![](screenshots/shodan.png)
-*[Most search filters require a Shodan account.](https://account.shodan.io/register)*
+<p align="center">
+  <img src="screenshots/shodan.png" /><br />
+  <strong><a href="https://account.shodan.io/register">Most search filters require a Shodan account.</a></strong>
+</p>
 
 You can assume these queries only return unsecured/open instances when possible. For your own legal benefit, do not attempt to login (even with default passwords) if they aren't! Narrow down results by adding filters like `country:US` or `org:"Harvard University"` or `hostname:"nasa.gov"` to the end.
 
 The world and its devices are quickly becoming more connected through the shiny new [Internet of ~~Things~~ Sh*t](https://motherboard.vice.com/en_us/topic/internet-of-shit) — and exponentially [more dangerous](https://blog.malwarebytes.com/101/2017/12/internet-things-iot-security-never/) as a result. To that end, I hope this list spreads awareness (and, quite frankly, pant-wetting fear) rather than harm. 
 
-**And as always, [discover and disclose responsibly](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)! 😊**
+**And as always, [discover and disclose responsibly](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)! 🤓**
 
 
 ---
@@ -43,7 +45,7 @@ The world and its devices are quickly becoming more connected through the shiny 
 "Server: Prismview Player"
 ```
 
-![Example: Electronic Billboards](screenshots/billboard2.png)
+<div align="center"><img src="screenshots/billboard2.png" alt="Example: Electronic Billboards" /></div>
 
 
 ### Gas Station Pump Controllers [&#x2192;](https://www.shodan.io/search?query=%22in-tank+inventory%22+port%3A10001)
@@ -52,7 +54,7 @@ The world and its devices are quickly becoming more connected through the shiny 
 "in-tank inventory" port:10001
 ```
 
-![Example: Gas Station Pump Inventories](screenshots/7-11.png)
+<div align="center"><img src="screenshots/7-11.png" alt="Example: Gas Station Pump Inventories" /></div>
 
 
 ### Automatic License Plate Readers [&#x2192;](https://www.shodan.io/search?query=P372+%22ANPR+enabled%22)
@@ -61,7 +63,7 @@ The world and its devices are quickly becoming more connected through the shiny 
 P372 "ANPR enabled"
 ```
 
-![Example: Automatic License Plate Reader](screenshots/plate-reader.png)
+<div align="center"><img src="screenshots/plate-reader.png" alt="Example: Automatic License Plate Reader" /></div>
 
 
 ### Traffic Light Controllers / Red Light Cameras [&#x2192;](https://www.shodan.io/search?query=mikrotik+streetlight)
@@ -91,7 +93,7 @@ mikrotik streetlight
 http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2
 ```
 
-![Example: Tesla PowerPack Charging Status](screenshots/tesla.png)
+<div align="center"><img src="screenshots/tesla.png" alt="Example: Tesla PowerPack Charging Status" /></div>
 
 
 ### Electric Vehicle Chargers [&#x2192;](https://www.shodan.io/search?query=%22Server%3A+gSOAP%2F2.8%22+%22Content-Length%3A+583%22)
@@ -114,7 +116,7 @@ http.title:"Nordex Control" "Windows 2000 5.0 x86" "Jetty/3.1 (JSP 1.1; Servlet 
 "[1m[35mWelcome on console"
 ```
 
-![Example: C4 Max Vehicle GPS](screenshots/c4max.png)
+<div align="center"><img src="screenshots/c4max.png" alt="Example: C4 Max Vehicle GPS" /></div>
 
 
 ### [DICOM](https://www.dicomstandard.org/about/) Medical X-Ray Machines [&#x2192;](https://www.shodan.io/search?query=%22DICOM+Server+Response%22+port%3A104)
@@ -132,7 +134,7 @@ Secured by default, thankfully, but these 1,700+ machines still [have no busines
 "Server: EIG Embedded Web Server" "200 Document follows"
 ```
 
-![Example: GaugeTech Electricity Meters](screenshots/power-gaugetech.png)
+<div align="center"><img src="screenshots/power-gaugetech.png" alt="Example: GaugeTech Electricity Meters" /></div>
 
 
 ### Siemens Industrial Automation [&#x2192;](https://www.shodan.io/search?query=%22Siemens%2C+SIMATIC%22+port%3A161)
@@ -179,9 +181,10 @@ Secured by default, thankfully, but these 1,700+ machines still [have no busines
 
 [Shodan Images](https://images.shodan.io/) is a great supplementary tool to browse screenshots, by the way!  [&#x2192;](https://images.shodan.io/?query=%22authentication+disabled%22+%21screenshot.label%3Ablank)
 
-![Example: Unprotected VNC](screenshots/vnc.png)
-
-*The first result right now. 😞*
+<p align="center">
+  <img src="screenshots/vnc.png" alt="Example: Unprotected VNC" /><br />
+  <em>The first result right now. 😞</em>
+</p>
 
 
 ### Windows RDP [&#x2192;](https://www.shodan.io/search?query=%22%5Cx03%5Cx00%5Cx00%5Cx0b%5Cx06%5Cxd0%5Cx00%5Cx00%5Cx124%5Cx00%22)
@@ -207,7 +210,7 @@ Older versions were insecure by default. [Very scary.](https://krebsonsecurity.c
 "MongoDB Server Information" port:27017 -authentication
 ```
 
-![Example: MongoDB](screenshots/mongo.png)
+<div align="center"><img src="screenshots/mongo.png" alt="Example: MongoDB" /></div>
 
 
 ### Jenkins CI [&#x2192;](https://www.shodan.io/search?query=%22X-Jenkins%22+%22Set-Cookie%3A+JSESSIONID%22+http.title%3A%22Dashboard%22)
@@ -216,7 +219,7 @@ Older versions were insecure by default. [Very scary.](https://krebsonsecurity.c
 "X-Jenkins" "Set-Cookie: JSESSIONID" http.title:"Dashboard"
 ```
 
-![Example: Jenkins CI](screenshots/jenkins.png)
+<div align="center"><img src="screenshots/jenkins.png" alt="Example: Jenkins CI" /></div>
 
 
 ### Docker APIs [&#x2192;](https://www.shodan.io/search?query=%22Docker+Containers%3A%22+port%3A2375)
@@ -262,7 +265,7 @@ Lantronix password port:30718 -secured
 "Citrix Applications:" port:1604
 ```
 
-![Example: Citrix Virtual Apps](screenshots/citrix.png)
+<div align="center"><img src="screenshots/citrix.png" alt="Example: Citrix Virtual Apps" /></div>
 
 
 ### Cisco Smart Install [&#x2192;](https://www.shodan.io/search?query=%22smart+install+client+active%22)
@@ -294,7 +297,7 @@ Telnet Configuration: [&#x2192;](https://www.shodan.io/search?query=%22Polycom+C
 "Polycom Command Shell" -failed port:23
 ```
 
-![Example: Polycom Video Conferencing](screenshots/polycom.png)
+<div align="center"><img src="screenshots/polycom.png" alt="Example: Polycom Video Conferencing" /></div>
 
 
 ### [Bomgar Help Desk](https://www.beyondtrust.com/remote-support/integrations) Portal [&#x2192;](https://www.shodan.io/search?query=%22Server%3A+Bomgar%22+%22200+OK%22)
@@ -326,7 +329,7 @@ HP-ILO-4 !"HP-ILO-4/2.53" !"HP-ILO-4/2.54" !"HP-ILO-4/2.55" !"HP-ILO-4/2.60" !"H
 "x-owa-version" "IE=EmulateIE7" "Server: Microsoft-IIS/7.0"
 ```
 
-![Example: OWA for Exchange 2007](screenshots/owa2007.png)
+<div align="center"><img src="screenshots/owa2007.png" alt="Example: OWA for Exchange 2007" /></div>
 
 #### Exchange 2010 [&#x2192;](https://www.shodan.io/search?query=%22x-owa-version%22+%22IE%3DEmulateIE7%22+http.favicon.hash%3A442749392)
 
@@ -334,7 +337,7 @@ HP-ILO-4 !"HP-ILO-4/2.53" !"HP-ILO-4/2.54" !"HP-ILO-4/2.55" !"HP-ILO-4/2.60" !"H
 "x-owa-version" "IE=EmulateIE7" http.favicon.hash:442749392
 ```
 
-![Example: OWA for Exchange 2010](screenshots/owa2010.png)
+<div align="center"><img src="screenshots/owa2010.png" alt="Example: OWA for Exchange 2010" /></div>
 
 #### Exchange 2013 / 2016 [&#x2192;](https://www.shodan.io/search?query=%22X-AspNet-Version%22+http.title%3A%22Outlook%22+-%22x-owa-version%22)
 
@@ -342,7 +345,7 @@ HP-ILO-4 !"HP-ILO-4/2.53" !"HP-ILO-4/2.54" !"HP-ILO-4/2.55" !"HP-ILO-4/2.60" !"H
 "X-AspNet-Version" http.title:"Outlook" -"x-owa-version"
 ```
 
-![Example: OWA for Exchange 2013/2016](screenshots/owa2013.png)
+<div align="center"><img src="screenshots/owa2013.png" alt="Example: OWA for Exchange 2013/2016" /></div>
 
 
 ### Lync / Skype for Business [&#x2192;](https://www.shodan.io/search?query=%22X-MS-Server-Fqdn%22)
@@ -379,7 +382,7 @@ Specifically domain controllers: [&#x2192;](https://www.shodan.io/search?query=%
 "Set-Cookie: iomega=" -"manage/login.html" -http.title:"Log In"
 ```
 
-![Example: Iomega / LenovoEMC NAS Drives](screenshots/iomega.png)
+<div align="center"><img src="screenshots/iomega.png" alt="Example: Iomega / LenovoEMC NAS Drives" /></div>
 
 
 ### Buffalo TeraStation NAS Drives [&#x2192;](https://www.shodan.io/search?query=Redirecting+sencha+port%3A9000)
@@ -388,7 +391,7 @@ Specifically domain controllers: [&#x2192;](https://www.shodan.io/search?query=%
 Redirecting sencha port:9000
 ```
 
-![Example: Buffalo TeraStation NAS Drives](screenshots/buffalo.png)
+<div align="center"><img src="screenshots/buffalo.png" alt="Example: Buffalo TeraStation NAS Drives" /></div>
 
 
 ### Logitech Media Servers [&#x2192;](https://www.shodan.io/search?query=%22Server%3A+Logitech+Media+Server%22+%22200+OK%22)
@@ -397,7 +400,7 @@ Redirecting sencha port:9000
 "Server: Logitech Media Server" "200 OK"
 ```
 
-![Example: Logitech Media Servers](screenshots/logitech.png)
+<div align="center"><img src="screenshots/logitech.png" alt="Example: Logitech Media Servers" /></div>
 
 
 ### [Plex](https://www.plex.tv/) Media Servers [&#x2192;](https://www.shodan.io/search?query=%22X-Plex-Protocol%22+%22200+OK%22+port%3A32400)
@@ -413,7 +416,7 @@ Redirecting sencha port:9000
 "CherryPy/5.1.0" "/home"
 ```
 
-![Example: PlexPy / Tautulli Dashboards](screenshots/plexpy.png)
+<div align="center"><img src="screenshots/plexpy.png" alt="Example: PlexPy / Tautulli Dashboards" /></div>
 
 
 ---
@@ -463,7 +466,7 @@ html:"DVR_H264 ActiveX"
 "Serial Number:" "Built:" "Server: HP HTTP"
 ```
 
-![Example: HP Printers](screenshots/hp.png)
+<div align="center"><img src="screenshots/hp.png" alt="Example: HP Printers" /></div>
 
 
 ### Xerox Copiers/Printers [&#x2192;](https://www.shodan.io/search?query=ssl%3A%22Xerox+Generic+Root%22)
@@ -472,7 +475,7 @@ html:"DVR_H264 ActiveX"
 ssl:"Xerox Generic Root"
 ```
 
-![Example: Xerox Copiers/Printers](screenshots/xerox.png)
+<div align="center"><img src="screenshots/xerox.png" alt="Example: Xerox Copiers/Printers" /></div>
 
 
 ### Epson Printers [&#x2192;](https://www.shodan.io/search?query=%22SERVER%3A+EPSON_Linux+UPnP%22+%22200+OK%22)
@@ -485,7 +488,7 @@ ssl:"Xerox Generic Root"
 "Server: EPSON-HTTP" "200 OK"
 ```
 
-![Example: Epson Printers](screenshots/epson.png)
+<div align="center"><img src="screenshots/epson.png" alt="Example: Epson Printers" /></div>
 
 
 ### Canon Printers [&#x2192;](https://www.shodan.io/search?query=%22Server%3A+KS_HTTP%22+%22200+OK%22)
@@ -498,7 +501,7 @@ ssl:"Xerox Generic Root"
 "Server: CANON HTTP Server"
 ```
 
-![Example: Canon Printers](screenshots/canon.png)
+<div align="center"><img src="screenshots/canon.png" alt="Example: Canon Printers" /></div>
 
 
 --- 
@@ -513,7 +516,7 @@ ssl:"Xerox Generic Root"
 "Server: AV_Receiver" "HTTP/1.1 406"
 ```
 
-![Example: Yamaha Stereos](screenshots/yamaha.png)
+<div align="center"><img src="screenshots/yamaha.png" alt="Example: Yamaha Stereos" /></div>
 
 
 ### Apple AirPlay Receivers [&#x2192;](https://www.shodan.io/search?query=%22%5Cx08_airplay%22+port%3A5353)
@@ -550,7 +553,7 @@ Apple TVs, HomePods, etc.
 title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
 ```
 
-![Example: OctoPrint 3D Printers](screenshots/octoprint.png)
+<div align="center"><img src="screenshots/octoprint.png" alt="Example: OctoPrint 3D Printers" /></div>
 
 
 ### Etherium Miners [&#x2192;](https://www.shodan.io/search?query=%22ETH+-+Total+speed%22)
@@ -559,7 +562,7 @@ title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
 "ETH - Total speed"
 ```
 
-![Example: Etherium Miners](screenshots/eth.png)
+<div align="center"><img src="screenshots/eth.png" alt="Example: Etherium Miners" /></div>
 
 
 ### Apache Directory Listings [&#x2192;](https://www.shodan.io/search?query=http.title%3A%22Index+of+%2F%22+http.html%3A%22.pem%22)
