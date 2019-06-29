@@ -103,6 +103,17 @@ http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2
 ```
 
 
+### Maritime Satellites [🔎 &#x2192;](https://www.shodan.io/search?query=%22Cobham+SATCOM%22+OR+%28%22Sailor%22+%22VSAT%22%29)
+
+Shodan made a pretty sweet [Ship Tracker](https://shiptracker.shodan.io/) that maps ship locations in real time, too!
+
+```
+"Cobham SATCOM" OR ("Sailor" "VSAT")
+```
+
+<div align="center"><img src="screenshots/sailor-vsat.png" alt="Example: Maritime Satellites" /></div>
+
+
 ### [Nordex Wind Turbine](http://www.nordex-online.com/en/products-services/wind-turbines.html) Farms [🔎 &#x2192;](https://www.shodan.io/search?query=http.title%3A%22Nordex+Control%22+%22Windows+2000+5.0+x86%22+%22Jetty%2F3.1+%28JSP+1.1%3B+Servlet+2.2%3B+java+1.6.0_14%29%22)
 
 ```
