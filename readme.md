@@ -114,6 +114,15 @@ Shodan made a pretty sweet [Ship Tracker](https://shiptracker.shodan.io/) that m
 <div align="center"><img src="screenshots/sailor-vsat.png" alt="Example: Maritime Satellites" /></div>
 
 
+### [CAREL PlantVisor](https://www.carel.com/product/plantvisor) Refrigeration Units [🔎 &#x2192;](https://www.shodan.io/search?query=%22Server%3A+CarelDataServer%22+%22200+Document+follows%22)
+
+```
+"Server: CarelDataServer" "200 Document follows"
+```
+
+<div align="center"><img src="screenshots/refrigeration.png" alt="Example: CAREL PlantVisor Refrigeration Units" /></div>
+
+
 ### [Nordex Wind Turbine](http://www.nordex-online.com/en/products-services/wind-turbines.html) Farms [🔎 &#x2192;](https://www.shodan.io/search?query=http.title%3A%22Nordex+Control%22+%22Windows+2000+5.0+x86%22+%22Jetty%2F3.1+%28JSP+1.1%3B+Servlet+2.2%3B+java+1.6.0_14%29%22)
 
 ```
