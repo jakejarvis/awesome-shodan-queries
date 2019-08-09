@@ -244,6 +244,17 @@ Older versions were insecure by default. [Very scary.](https://krebsonsecurity.c
 <div align="center"><img src="screenshots/mongo.png" alt="Example: MongoDB" /></div>
 
 
+### [Mongo Express](https://github.com/mongo-express/mongo-express) Web GUI [🔎 &#x2192;](https://www.shodan.io/search?query=%22Set-Cookie%3A+mongo-express%3D%22+%22200+OK%22)
+
+Like the [infamous phpMyAdmin](https://www.cvedetails.com/vulnerability-list/vendor_id-784/Phpmyadmin.html) but for MongoDB.
+
+```
+"Set-Cookie: mongo-express=" "200 OK"
+```
+
+<div align="center"><img src="screenshots/mongo-express.png" alt="Example: Mongo Express GUI" /></div>
+
+
 ### Jenkins CI [🔎 &#x2192;](https://www.shodan.io/search?query=%22X-Jenkins%22+%22Set-Cookie%3A+JSESSIONID%22+http.title%3A%22Dashboard%22)
 
 ```
