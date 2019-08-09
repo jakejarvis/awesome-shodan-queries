@@ -125,6 +125,13 @@ Shodan made a pretty sweet [Ship Tracker](https://shiptracker.shodan.io/) that m
 <div align="center"><img src="screenshots/sailor-vsat.png" alt="Example: Maritime Satellites" /></div>
 
 
+### Submarine Mission Control Dashboards [🔎 &#x2192;](https://www.shodan.io/search?query=title%3A%22Slocum+Fleet+Mission+Control%22)
+
+```
+title:"Slocum Fleet Mission Control"
+```
+
+
 ### [CAREL PlantVisor](https://www.carel.com/product/plantvisor) Refrigeration Units [🔎 &#x2192;](https://www.shodan.io/search?query=%22Server%3A+CarelDataServer%22+%22200+Document+follows%22)
 
 ```
