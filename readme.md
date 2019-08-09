@@ -407,6 +407,13 @@ Specifically domain controllers: [🔎 &#x2192;](https://www.shodan.io/search?qu
 ```
 
 
+### FTP Servers with Anonymous Login [🔎 &#x2192;](https://www.shodan.io/search?query=%22220%22+%22230+Login+successful.%22+port%3A21)
+
+```
+"220" "230 Login successful." port:21
+```
+
+
 ### Iomega / LenovoEMC NAS Drives [🔎 &#x2192;](https://www.shodan.io/search?query=%22Set-Cookie%3A+iomega%3D%22+-%22manage%2Flogin.html%22+-http.title%3A%22Log+In%22)
 
 ```
