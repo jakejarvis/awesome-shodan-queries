@@ -42,7 +42,7 @@ The world and its devices are quickly becoming more connected through the shiny 
 "Server: Prismview Player"
 ```
 
-<div align="center"><img src="screenshots/billboard2.png" alt="Example: Electronic Billboards" width="500" /></div>
+<div align="center"><img src="screenshots/billboard3.png" alt="Example: Electronic Billboards" width="500" /></div>
 
 
 ### Gas Station Pump Controllers [🔎 &#x2192;](https://www.shodan.io/search?query=%22in-tank+inventory%22+port%3A10001)
