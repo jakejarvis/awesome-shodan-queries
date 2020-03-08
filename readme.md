@@ -507,6 +507,20 @@ html:"DVR_H264 ActiveX"
 ```
 
 
+### Axis Communications [🔎 &#x2192;](https://www.shodan.io/search?query=http.favicon.hash%3A-1616143106+)
+
+```
+http.favicon.hash:-1616143106
+```
+
+
+### Ubiquiti [🔎 &#x2192;](https://www.shodan.io/search?query=UBNT+Streaming+Server+v1.2+RTSP+200)
+
+```
+UBNT Streaming Server v1.2 RTSP 200
+```
+
+
 ---
 
 
