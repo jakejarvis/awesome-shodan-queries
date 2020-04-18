@@ -428,6 +428,12 @@ Specifically domain controllers: [🔎 &#x2192;](https://www.shodan.io/search?qu
 "Authentication: disabled" NETLOGON SYSVOL -unix port:445
 ```
 
+Concerning [default network shares of QuickBooks](https://quickbooks.intuit.com/learn-support/en-us/help-articles/set-up-folder-and-windows-access-permissions-to-share-company/01/201880) files: [🔎 &#x2192;](https://www.shodan.io/search?query=%22Authentication%3A+disabled%22+%22Shared+this+folder+to+access+QuickBooks+files+OverNetwork%22+-unix+port%3A445)
+
+```
+"Authentication: disabled" "Shared this folder to access QuickBooks files OverNetwork" -unix port:445
+```
+
 
 ### FTP Servers with Anonymous Login [🔎 &#x2192;](https://www.shodan.io/search?query=%22220%22+%22230+Login+successful.%22+port%3A21)
 
