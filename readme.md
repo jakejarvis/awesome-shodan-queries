@@ -275,6 +275,13 @@ Like the [infamous phpMyAdmin](https://www.cvedetails.com/vulnerability-list/ven
 ```
 
 
+### Docker Private Registries [🔎 &#x2192;](https://www.shodan.io/search?query=%22Docker-Distribution-Api-Version%3A+registry%22+%22200+OK%22+-gitlab)
+
+```
+"Docker-Distribution-Api-Version: registry" "200 OK" -gitlab
+```
+
+
 ### [Pi-hole](https://pi-hole.net/) Open DNS Servers [🔎 &#x2192;](https://www.shodan.io/search?query=%22dnsmasq-pi-hole%22+%22Recursion%3A+enabled%22)
 
 ```
