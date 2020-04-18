@@ -640,6 +640,15 @@ http.title:"Index of /" http.html:".pem"
 ```
 
 
+### Misconfigured WordPress [🔎 &#x2192;](https://www.shodan.io/search?query=http.html%3A%22*+The+wp-config.php+creation+script+uses+this+file%22)
+
+Exposed [`wp-config.php`](https://github.com/WordPress/WordPress/blob/master/wp-config-sample.php) files containing database credentials.
+
+```
+http.html:"* The wp-config.php creation script uses this file"
+```
+
+
 ### Too Many Minecraft Servers [🔎 &#x2192;](https://www.shodan.io/search?query=%22Minecraft+Server%22+%22protocol+340%22+port%3A25565)
 
 ```
