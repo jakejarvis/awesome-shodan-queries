@@ -237,6 +237,17 @@ Secured by default, thankfully, but these 1,700+ machines still [have no busines
 ## Network Infrastructure
 
 
+### [Weave Scope](https://www.weave.works/oss/scope/) Dashboards [🔎 &#x2192;](https://www.shodan.io/search?query=title%3A%22Weave+Scope%22+http.favicon.hash%3A567176827)
+
+Command-line access inside Kubernetes pods and Docker containers, and real-time visualization/monitoring of the entire infrastructure.
+
+```
+title:"Weave Scope" http.favicon.hash:567176827
+```
+
+<div align="center"><img src="screenshots/weavescope.png" alt="Example: Weave Scope Dashboards" /></div>
+
+
 ### MongoDB [🔎 &#x2192;](https://www.shodan.io/search?query=product%3AMongoDB+-authentication)
 
 Older versions were insecure by default. [Very scary.](https://krebsonsecurity.com/tag/mongodb/)
