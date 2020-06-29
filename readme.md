@@ -208,6 +208,13 @@ Secured by default, thankfully, but these 1,700+ machines still [have no busines
 ## Remote Desktop
 
 
+### Vulnerable VNC [🔎 &#x2192;](https://www.shodan.io/search?query=ThinVNC)
+
+ThinVNC has a [Authentication Bypass](https://gist.github.com/Gusted/ff545600e60b0fa03d1fbaf95d237751) free PC's I guess.
+```
+ThinVNC
+```
+
 ### Unprotected VNC [🔎 &#x2192;](https://www.shodan.io/search?query=%22authentication+disabled%22+%22RFB+003.008%22)
 
 ```
