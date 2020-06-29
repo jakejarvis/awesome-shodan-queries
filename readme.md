@@ -496,6 +496,10 @@ Redirecting sencha port:9000
 <div align="center"><img src="screenshots/plexpy.png" alt="Example: PlexPy / Tautulli Dashboards" width="570" /></div>
 
 
+### [Emby/Jellyfin](https://emby.media/) Media Servers [🔎 &#x2192;](https://www.shodan.io/search?query=%22X-MediaBrowser-Token%2C+X-Emby-Authorization%22+%22Manual+Login%22)
+
+<div align="center"><img src="screenshots/emby.png" alt="Example: Emby/Jellyfin Media Centers" width="570" /></div>
+
 ---
 
 
