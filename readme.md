@@ -742,6 +742,7 @@ Brute Ratel C4 (BRc4), is the newest red-teaming and adversarial attack simulati
 
 http.html_hash:-195716165
 
+https://www.socinvestigation.com/shodan-filters-to-hunt-adversaries-infrastructure-and-c2/
 Source/Credits: ht://twitter.com/MichalKoczwara/
 ---
 
