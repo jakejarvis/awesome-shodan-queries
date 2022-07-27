@@ -693,16 +693,18 @@ port:17 product:"Windows qotd"
 ## Threat-hunting 
 
 
-C2 traffic
+### C2 traffic [🔎 &#x2192;](https://www.shodan.io/search?query=product%3A%22c2%22)
+Find IP's used for Command and Control traffic (marked with the 'C2' tag by Shodan)
 
+```
 product:"c2"
+```
 
 ### Cobalt Strike [🔎 &#x2192;](https://beta.shodan.io/search?query=product%3A%22Cobalt+Strike+Beacon%22)
 
 
 Cobalt Strike was one of the first public red team command and control frameworks. In 2020, HelpSystems acquired Cobalt Strike to add to its Core Security portfolio and pair with Core Impact. Today, Cobalt Strike is the go-to red team platform for many U.S. government, large business, and consulting organizations.
 
-Hunt Query:
 
 ```
 product:"Cobalt Strike Beacon"
@@ -711,7 +713,6 @@ product:"Cobalt Strike Beacon"
 
 ### Metasploit Framework [🔎 &#x2192;](https://beta.shodan.io/search?query=ssl%3A%22MetasploitSelfSignedCA%22)
 
-
 A Metasploit Framework is a powerful tool that provides a universal interface to work with vulnerability exploit code. It has to exploit code for a wide range of vulnerabilities that impact web servers, OSes, network equipment, and everything in between. Metasploit which serves as both exploitation and C2 frameworks.
 
 ```
@@ -719,31 +720,30 @@ ssl:"MetasploitSelfSignedCA"
 ```
 
 
-Covenant
+### Covenant [🔎 &#x2192;](https://www.shodan.io/search?query=ssl%3A%22covenant%22+http.component%3A%22Blazor%22)
 Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers.
 
+```
 ssl:"covenant" http.component:"Blazor"
+```
 
 
-
-
-
-Mythic
+### Mythic [🔎 &#x2192;](https://www.shodan.io/search?query=SSL%3AMythic+port%3A7443)
 A cross-platform, post-exploit, red teaming framework built with python3, docker, docker-compose, and a web browser UI. It’s designed to provide a collaborative and user-friendly interface for operators, managers, and reporting throughout red teaming.
 
+```
 SSL:Mythic port:7443
+```
 
 
-
-Brute Ratel C4
+### Brute Ratel C4 [🔎 &#x2192;](https://www.shodan.io/search?query=http.html_hash%3A-195716165)
 Brute Ratel C4 (BRc4), is the newest red-teaming and adversarial attack simulation tool to hit the market. While this capability has managed to stay out of the spotlight and remains less commonly known than its Cobalt Strike brethren, it is no less sophisticated. Instead, this tool is uniquely dangerous in that it was specifically designed to avoid detection by endpoint detection and response (EDR) and antivirus (AV) capabilities.
 
-
-
+```
 http.html_hash:-195716165
+```
 
-https://www.socinvestigation.com/shodan-filters-to-hunt-adversaries-infrastructure-and-c2/
-Source/Credits: ht://twitter.com/MichalKoczwara/
+
 ---
 
 
@@ -760,4 +760,8 @@ Bon voyage, fellow penetrators! 😉
 
 To the extent possible under law, [Jake Jarvis](https://jarv.is/) has waived all copyright and related or neighboring rights to this work.
 
-Mirrored from a blog post at https://jarv.is/notes/shodan-search-queries/.
+Mirrored from a blog post at:
+
+- https://jarv.is/notes/shodan-search-queries/.
+- https://www.socinvestigation.com/shodan-filters-to-hunt-adversaries-infrastructure-and-c2/
+- Source/Credits: ht://twitter.com/MichalKoczwara/
