@@ -116,7 +116,7 @@ http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2
 Shodan made a pretty sweet [Ship Tracker](https://shiptracker.shodan.io/) that maps ship locations in real time, too!
 
 ```
-"Cobham SATCOM" OR ("Sailor" "VSAT")
+("Cobham SATCOM" OR "Sailor VSAT")
 ```
 
 <div align="center"><img src="screenshots/sailor-vsat.png" alt="Example: Maritime Satellites" width="700" /></div>
