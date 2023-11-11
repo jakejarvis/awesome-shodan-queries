@@ -543,6 +543,10 @@ html:"DVR_H264 ActiveX"
 "Serial Number:" "Built:" "Server: HP HTTP"
 ```
 
+```
+"HP-ChaiSOE" port:"80"
+```
+
 <div align="center"><img src="screenshots/hp.png" alt="Example: HP Printers" width="650" /></div>
 
 
